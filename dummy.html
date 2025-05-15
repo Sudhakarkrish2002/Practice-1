@@ -1,0 +1,66 @@
+<style>
+   .container {
+        background-color: rgb(225, 115, 132);
+        width: 400px;
+        height: 300px;
+        position: relative;
+        margin: 10px;
+        
+    }
+
+    .img1 {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        top: 130px;
+        transform: rotate(57deg);
+
+    }
+
+    .img2 {
+        width: 40px;
+        height: 40px;
+        position: absolute;
+        right: 0;
+        top: 130px;
+    }
+
+    .dot {
+        width: 10px;
+        height: 10px;
+        border-radius: 100%;
+        background-color: black;
+        margin: 2px;
+
+    }
+    .row{
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        transform: translateX(-50%);
+        position: absolute;
+        bottom:5px;
+        left:50%;
+       
+    }
+    h1{
+        position: absolute;
+        left: 48%;
+        top: 110px;
+        color:  white;
+    }
+</style>
+<div class="container">
+    <div>
+        <h1>1</h1>
+    </div>
+    <img class="img1" src="play-button.png" alt="playbutton1">
+    <img class="img2" src="play-button.png" alt="playbutton2">
+    <div class="row">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+</div>
